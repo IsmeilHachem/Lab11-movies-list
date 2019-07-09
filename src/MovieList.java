@@ -89,11 +89,15 @@ public class MovieList {
 						System.out.println(movie.getTitle());
 
 					}
+					
 				}
 			}
 
 			System.out.println("Wanna pick another movie or nah? (y/n)");
 			userChoice = scnr.next().charAt(0);
+			scnr.nextLine();
+		
+			
 		} while (userChoice == 'Y' || userChoice == 'y');
 
 		System.out.println("Aight I see how it is...");
